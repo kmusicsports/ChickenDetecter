@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "onryou";
+    src: url("./onryou.TTF") format("truetype");
+  }
+  
+  .zentai {
+    background: url("./images/sinrei.jpg");
+    margin: 0;
+  }
+  
+  header {
+    height: 80px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+  }
+  header p {
+    font-size: 4vw;
+    margin-top: 20px;
+    font-family: onryou;
+  }
+  .title {
+    color: red;
+  }
+  .titleD {
+    margin-left: 1rem;
+  }
+  .dai {
+    display: flex;
+    margin-top: 150pt;
+    margin-left: 150pt;
+  }
+  .douga {
+    display: inline-block;
+    cursor: pointer; /* カーソルを指に */
+    margin: 1em 0; /* まわりの余白 */
+    padding: 0.7em 1em; /* 文字まわりの余白 */
+    line-height: 5; /* 行間 */
+    background: #2b4e7c; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-size: 0.95em; /* フォントサイズ */
+    border-radius: 2.5em; /* 角の丸み */
+    transition: 0.5s; /* ホバーをなめらかに */
+    margin-left: 50px;
+    margin-top: 160px;
+    font-weight: bold;
+    font-family: "onryou";
+  }
+  
+  .setumei {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-left: 230px;
+    margin-top: 100px;
+    color: white;
+    font-family: "onryou";
+  }
+  .kekka {
+    display: inline-block;
+    cursor: pointer; /* カーソルを指に */
+    margin: 1em 0; /* まわりの余白 */
+    padding: 0.7em 1em; /* 文字まわりの余白 */
+    line-height: 2.5; /* 行間 */
+    background: #2b4e7c; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-size: 0.95em; /* フォントサイズ */
+    border-radius: 2.5em; /* 角の丸み */
+    transition: 0.2s; /* ホバーをなめらかに */
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: "onryou";
+  }
+  .kekka:hover {
+    box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.2);
+  }
+  footer {
+    position: relative;
+    top: 10vw;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    font-family: onryou;
+  }
